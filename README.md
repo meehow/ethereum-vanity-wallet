@@ -20,12 +20,6 @@ Address: 0x**ab**56b21826316f56f1Ee7e2e69C489A51EB8A5**cd** PrivateKey: f9fd0529
 
 Address: 0x**ab**f6AC87BBad30215359739A6EE4159F4c4a23**cd** PrivateKey: c5bc2fac7fb08cc883adf37c0e0edeb142978859668546ac859bf7b1e8fe8767
 
-Address: 0x**aB**29C8117002497fe99926895DF3dCD2a8259C**cD** PrivateKey: 9713a384ab4514ebef0bf1c064ddd14b7aebbff22aee1ee0791776bf8ab37298
-
-Address: 0x**aB**a8e517e35A695DA093D0272CE05A53b6BE05**cD** PrivateKey: 63d352dac2ce38679cb0a258c8820858046fd983a528110446466cb3a66c7752
-
-Address: 0x**aB**3Bba66FCEF2Ba55ac0b7631fbee352362f3B**cd** PrivateKey: f9205f2f91f5a612f41f0348889f8b558ac8ebd2b5234627267c295fb9587aac
-
 ^C
 
 [![asciicast](https://asciinema.org/a/228369.svg)](https://asciinema.org/a/228369)
@@ -41,3 +35,16 @@ BenchmarkNewKeyForDirectICAPNotRandom-4   	   10000	    157199 ns/op
 BenchmarkRawEcdsa-4                       	   10000	    152757 ns/op
 BenchmarkRawEcdsaNotRandom-4              	   10000	    152196 ns/op
 ```
+
+## What is the purpose of this tool?
+
+Having ETH address, with few letters which are defined by us, makes it easier
+to visually identify this account among others. In opposite to
+[Ethereum Name Service](https://ens.domains/), it doesn't require special
+support by wallet implementation and it's for free.
+
+![dead-beef](dead-beef.png)
+
+If you have some spare Ethereum, you can send it to 0xDEad5CE2A46BadBD39638C8164727e8BD09ABEef
+🤑
+
