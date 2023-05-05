@@ -44,7 +44,3 @@ to visually identify this account among others. In opposite to
 support by wallet implementation and it's for free.
 
 ![dead-beef](dead-beef.png)
-
-If you have some spare Ethereum, you can send it to 0xDEad5CE2A46BadBD39638C8164727e8BD09ABEef
-🤑
-
