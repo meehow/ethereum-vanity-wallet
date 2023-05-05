@@ -7,7 +7,7 @@ Address part can contain only digits and letters from A to F.
 ## Installation
 
 ```
-go get github.com/meehow/ethereum-vanity-wallet
+go install github.com/meehow/ethereum-vanity-wallet@latest
 ```
 
 ## Usage
